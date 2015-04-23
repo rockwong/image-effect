@@ -1,0 +1,251 @@
+
+
+.ink-base{
+    -webkit-mask-image: url(../images/mask.png);
+      -webkit-mask-repeat: no-repeat;
+      -webkit-mask-size:400% 500%;
+  }
+
+
+.ink {
+-webkit-animation-timing-function:step-end;
+animation-timing-function:step-end;
+  -webkit-animation-name: ink;
+          animation-name: ink;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.time1 {
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+}
+
+.time2 {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.time3 {
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+.time4 {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.time5 {
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
+}
+
+.time6 {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+.time7 {
+  -webkit-animation-duration: 3.5s;
+          animation-duration: 3.5s;
+}
+
+.time8 {
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+.time9 {
+  -webkit-animation-duration: 4.5s;
+          animation-duration: 4.5s;
+}
+
+.time10 {
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.time11 {
+  -webkit-animation-duration: 5.5s;
+          animation-duration: 5.5s;
+}
+
+.time12 {
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+}
+
+.time13 {
+  -webkit-animation-duration: 6.5s;
+          animation-duration: 6.5s;
+}
+
+.time14 {
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+}
+
+.time15 {
+  -webkit-animation-duration: 7.5s;
+          animation-duration: 7.5s;
+}
+
+.time16 {
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
+}
+
+.time17 {
+  -webkit-animation-duration: 8.5s;
+          animation-duration: 8.5s;
+}
+
+.time18 {
+  -webkit-animation-duration: 9s;
+          animation-duration: 9s;
+}
+
+.time19 {
+  -webkit-animation-duration: 9.5s;
+          animation-duration: 9.5s;
+}
+
+.time20 {
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+}
+
+@-webkit-keyframes ink {
+  0% {
+    -webkit-mask-position: 0% 0%;
+  }
+  5% {
+    -webkit-mask-position: 33.33% 0%;
+  }
+  10% {
+    -webkit-mask-position: 66.66% 0%;
+  }
+  15% {
+    -webkit-mask-position: 100% 0%;
+  }
+  20% {
+    -webkit-mask-position: 0% 25%;
+  }
+  25% {
+    -webkit-mask-position: 33.33% 25%;
+  }
+  30% {
+    -webkit-mask-position: 66.66% 25%;
+  }
+  35% {
+    -webkit-mask-position: 100% 25%;
+  }
+  40% {
+    -webkit-mask-position: 0% 50%;
+  }
+  45% {
+    -webkit-mask-position: 33.33% 50%;
+  }
+  50% {
+    -webkit-mask-position: 66.66% 50%;
+  }
+  55% {
+    -webkit-mask-position: 100% 50%;
+  }
+  60% {
+    -webkit-mask-position: 0% 75%;
+  }
+  65% {
+    -webkit-mask-position: 33.33% 75%;
+  }
+  70% {
+    -webkit-mask-position: 66.66% 75%;
+  }
+  75% {
+    -webkit-mask-position: 100% 75%;
+  }
+  80% {
+    -webkit-mask-position: 0% 100%;
+  }
+  85% {
+    -webkit-mask-position: 33.33% 100%;
+  }
+  90% {
+    -webkit-mask-position: 66.66% 100%;
+  }
+  95% {
+    -webkit-mask-position: 100% 100%;
+  }
+  100% {
+    -webkit-mask-position: 100% 100%;
+  }
+}
+
+@keyframes ink {
+  0% {
+    -webkit-mask-position: 0% 0%;
+  }
+  5% {
+    -webkit-mask-position: 33.33% 0%;
+  }
+  10% {
+    -webkit-mask-position: 66.66% 0%;
+  }
+  15% {
+    -webkit-mask-position: 100% 0%;
+  }
+  20% {
+    -webkit-mask-position: 0% 25%;
+  }
+  25% {
+    -webkit-mask-position: 33.33% 25%;
+  }
+  30% {
+    -webkit-mask-position: 66.66% 25%;
+  }
+  35% {
+    -webkit-mask-position: 100% 25%;
+  }
+  40% {
+    -webkit-mask-position: 0% 50%;
+  }
+  45% {
+    -webkit-mask-position: 33.33% 50%;
+  }
+  50% {
+    -webkit-mask-position: 66.66% 50%;
+  }
+  55% {
+    -webkit-mask-position: 100% 50%;
+  }
+  60% {
+    -webkit-mask-position: 0% 75%;
+  }
+  65% {
+    -webkit-mask-position: 33.33% 75%;
+  }
+  70% {
+    -webkit-mask-position: 66.66% 75%;
+  }
+  75% {
+    -webkit-mask-position: 100% 75%;
+  }
+  80% {
+    -webkit-mask-position: 0% 100%;
+  }
+  85% {
+    -webkit-mask-position: 33.33% 100%;
+  }
+  90% {
+    -webkit-mask-position: 66.66% 100%;
+  }
+  95% {
+    -webkit-mask-position: 100% 100%;
+  }
+  100% {
+    -webkit-mask-position: 100% 100%;
+  }
+}
