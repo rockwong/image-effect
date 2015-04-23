@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,target-densitydpi=high-dpi,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<title>Document</title>
+
+	<style>
+	*{padding:0;margin:0;}
+	body{
+		overflow: hidden;
+		background-color: #000;
+	}
+	.demo{
+		position: relative;
+	}
+	.demo .item2{
+		position: absolute;
+		top: 0;
+	}
+	img{
+		max-width: 100%;
+	}
+	</style>
+	<link rel="stylesheet" href="style/image-effect.css">
+</head>
+<body>
+	<div class="demo">
+		<div class="item1">
+			<img src="images/2.jpg" alt="">
+		</div>
+		<!-- 
+			
+			.item2 为测试div
+
+		  	.ink-base 设置动画的图片，及大小;(必须要)
+		  	.ink  设置动画运动过程;(必须要)
+
+		  	.time1~.time20 每增加一位数字动画的持续时间增加0.5s,不添加此class 则动画的持续时间为默认的1s;
+
+
+		  	自定义其他动画参数请编辑css/image-effect.css
+
+		 -->
+		<div class="item2 ink-base ink time6">
+			<img src="images/3.jpg" alt="">
+		</div>
+	</div>
+</body>
+</html>

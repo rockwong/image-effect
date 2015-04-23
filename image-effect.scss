@@ -1,0 +1,87 @@
+.ink-base{
+    -webkit-mask-image: url(../images/mask.png);
+      -webkit-mask-repeat: no-repeat;
+      -webkit-mask-size:400% 500%;
+  }
+.ink {
+  animation-name: ink;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@for $i from 1 through 20{
+  .time#{$i}{
+    animation-duration: $i*0.5s;
+  }
+}
+
+@keyframes ink{
+  0% {
+    -webkit-mask-position:0% 0%;
+  }
+  5% {
+    -webkit-mask-position:33.33% 0%;
+  }
+  10% {
+    -webkit-mask-position:66.66% 0%;
+  }
+  15% {
+    -webkit-mask-position:100% 0%;
+  }
+
+  20% {
+    -webkit-mask-position:0% 25%;
+  }
+  25% {
+    -webkit-mask-position:33.33% 25%;
+  }
+  30% {
+    -webkit-mask-position:66.66% 25%;
+  }
+  35% {
+    -webkit-mask-position:100% 25%;
+  }
+
+  40% {
+    -webkit-mask-position:0% 50%;
+  }
+  45% {
+    -webkit-mask-position:33.33% 50%;
+  }
+  50% {
+    -webkit-mask-position:66.66% 50%;
+  }
+  55% {
+    -webkit-mask-position:100% 50%;
+  }
+
+  60% {
+    -webkit-mask-position:0% 75%;
+  }
+  65% {
+    -webkit-mask-position:33.33% 75%;
+  }
+  70% {
+    -webkit-mask-position:66.66% 75%;
+  }
+  75% {
+    -webkit-mask-position:100% 75%;
+  }
+
+  80% {
+    -webkit-mask-position:0% 100%;
+  }
+  85% {
+    -webkit-mask-position:33.33% 100%;
+  }
+  90% {
+    -webkit-mask-position:66.66% 100%;
+  }
+  95% {
+    -webkit-mask-position:100% 100%;
+  }
+  100% {
+    -webkit-mask-position:100% 100%;
+  }
+
+}
