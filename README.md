@@ -2,4 +2,4 @@
 
  纯css的水墨图片切换效果。
  
- demo <http://rockwong.github.io/image-effect/>
+ 建议用手机查看 demo <http://rockwong.github.io/image-effect/>
